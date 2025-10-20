@@ -34,8 +34,13 @@ In today's fast-paced and demanding work environments, cultivating such habits i
 My research examines how technology can meaningfully support this process.
 
 I am a third-year PhD student in Computer Science at Virginia Tech, advised by [Dr. Sang Won Lee](https://echolab.cs.vt.edu/sangwonlee/).
-Within Human–Computer Interaction, I explore **how technology can support productivity, self-regulation, and self-reflection**. 
-In particular, I study conversational interaction as a medium for reflection: talking through our plans can help us externalize intentions, evaluate progress, and bring new ideas - yet sustaining these practices over time is challenging. This raises key research questions: How can we design conversational agents that sustain **engagement** over time? In what ways can such systems foster positive behavior change? And, as large language models (LLMs) increasingly take **proactive, agentic** roles, how do people engage with these agents in personal productivity contexts? To answer these questions, **I design and build interactive human–AI systems**, combining **mixed-methods approaches with field studies** to examine their impact in real-world settings.
+Within Human–Computer Interaction, I explore how technology can support self-reflection, self-regulation, and productivity. 
+In particular, **I study conversational interaction as a medium for reflection**: talking through our plans can help us externalize intentions, evaluate progress, and bring new ideas - yet sustaining these practices over time is challenging. This raises key research questions: 
+- How can we design conversational agents that sustain engagement over time? 
+- In what ways can such systems foster positive behavior change? 
+- And, as large language models (LLMs) increasingly take proactive, agentic roles, how do people engage with these agents in personal productivity contexts? 
+
+To answer these questions, **I design and build interactive human–AI systems**, combining mixed-methods approaches with field studies to examine their impact in real-world settings.
 
 
 Before starting graduate school, I worked as an Educational Technology Engineer, where I developed interactive courses to teach XR development, including [WebXR, A-Frame](https://www.educative.io/courses/become-proficient-in-webxr-create-xr-experiences-using-a-frame) and [VR Applications with Unity](https://www.educative.io/courses/mastering-vr-development-with-unity-and-meta-quest-2). During my undergraduate studies at [LUMS](https://lums.edu.pk/), I conducted research under the supervision of [Dr. Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/) on optimizing the design of control planes in cellular networks.
