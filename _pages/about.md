@@ -6,7 +6,7 @@ subtitle: HCI Researcher. <a href='https://echolab.cs.vt.edu/'>Echolab, CS@VT</a
 
 profile:
   align: right
-  image: prof_pic.png
+  image: adnan-profile-2026.png
   image_circular: false # crops the image to make it circular
   more_info: |
     Email: <a href="mailto:adnana99@vt.edu">adnana99@vt.edu</a><br>
@@ -47,7 +47,7 @@ Before starting graduate school, I worked as an Educational Technology Engineer,
 
 
 <!-- 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.png` and put it in the `img/` folder.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. Add your profile image to the `assets/img/` folder and reference its filename above.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
