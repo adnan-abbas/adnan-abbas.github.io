@@ -11,3 +11,5 @@ assets/libs/
 node_modules/
 vendor
 .idea
+assets/pdf/*.log
+assets/pdf/*.synctex.gz

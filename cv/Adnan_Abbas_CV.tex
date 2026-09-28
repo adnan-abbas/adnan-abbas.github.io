@@ -1,0 +1,392 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{iftex}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\ifPDFTeX
+  \input{glyphtounicode}
+\fi
+
+\definecolor{myblue}{RGB}{30, 1, 171}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\ifPDFTeX
+  \pdfgentounicode=1
+\fi
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+  % ==== Header ====
+{\huge \scshape Adnan Abbas} \\[-2pt]
+\rule{4cm}{0.4pt} \\[6pt]
+
+\small
+\faGlobe\ \href{https://adnan-abbas.github.io}{adnan-abbas.github.io} \\[3pt]
+\faPhone\ 540-558-5330 \\[3pt]
+\faEnvelope\ \href{mailto:adnana99@vt.edu}{adnana99@vt.edu} \\[3pt]
+\faLinkedin\ \href{https://linkedin.com/in/adnan-abbas-54311116b/}{linkedin.com/in/adnan-abbas-54311116b/} \\[3pt]
+\faGithub\ \href{https://github.com/adnan-abbas}{github.com/adnan-abbas}
+%----------- SUMMARY-----------
+\section{Research Interests}
+ \begin{itemize}[leftmargin=0.15in]
+    \itemsep0em
+\small{\item{Understanding how people negotiate and calibrate autonomy in agentic LLM systems for planning and productivity}}
+\small{\item{Designing proactive agents that support personal productivity while maintaining user control, transparency, and trust}}
+\small{\item{Studying long-term human–AI adaptation and its impact on collaboration, trust, and knowledge work practices}}
+ \end{itemize}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Virginia Tech}{Aug 2023 -- Present}
+      {Ph.D. in Computer Science (HCI) -- Advised by \href{https://echolab.cs.vt.edu/sangwonlee/}{Dr. Sang Won Lee}}{Blacksburg, VA, USA}
+    \resumeSubheading
+      {Lahore University of Management Sciences (LUMS)}{Aug 2018 -- May 2022}
+      {Bachelor of Science in Computer Science}{Lahore, Pakistan}
+\resumeSubHeadingListEnd
+
+
+  % \textit{\small Relevant Coursework: Data Structures, Algorithms, Software Engineering, Operating Systems, Computer Vision}
+%------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+\section{Publications}
+
+\subsection*{Journal \& Conference Proceedings}
+\resumeItemListStart
+
+    \resumeItem{Sangwook Lee, \textbf{\underline{Adnan Abbas}}, Sang Won Lee, Young-Ho Kim, Yan Chen,
+    ``\href{https://arxiv.org/pdf/2604.06134}{\textit{MAESTRO: Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs}},''
+    in \emph{Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology (UIST 2026)}.}
+
+    \resumeItem{\textbf{\underline{Adnan Abbas}}, Caleb Wohn, Arnav Jagtap, Eugenia H. Rho, Young-ho Kim, Sang Won Lee,
+    ``\href{https://arxiv.org/pdf/2509.24073}{\textit{‘Having Lunch Now’: Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection}},''
+   in \emph{Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2026)}.}
+
+    \resumeItem{Sangwook Lee, \textbf{\underline{Adnan Abbas}}, Yan Chen, Young-ho Kim, Sang Won Lee,
+    ``\href{https://arxiv.org/pdf/2509.20512}{\textit{CHOIR: A Chatbot-mediated Organizational Memory Leveraging Communication in University Research Labs}},''  \emph{in Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2026)}
+    \textbf{Honorable Mention Award (Top 5\% of submissions)}.}
+
+    \resumeItem{\textbf{\underline{Adnan Abbas}}, Caleb Wohn, Donghan Hu, Eugenia H. Rho, Sang Won Lee,
+    ``\href{https://dl.acm.org/doi/10.1145/3719160.3736634}{\textit{PITCH: Designing Agentic Conversational Support for Planning and Self-reflection}},''
+    in \emph{Proceedings of the ACM Conference on Conversational User Interfaces (CUI 2025)}.}
+    \resumeItem{Mukhtiar Ahmad, Syed Muhammad Nawazish Ali, Muhammad Taimoor Tariq, Syed Usman Jafri, \textbf{\underline{Adnan Abbas}}, et al.,
+    ``\href{https://ieeexplore.ieee.org/document/9885031}{\textit{Neutrino: A Fast and Consistent Edge-based Cellular Control Plane}},''
+    \emph{in IEEE/ACM Transactions on Networking}, 2023.}
+
+\resumeItemListEnd
+
+\subsection*{Papers Under Review}
+\resumeItemListStart
+    \resumeItem{\textbf{\underline{Adnan Abbas}}, Linda W. Chang, Lu Sun, Laura A. Libby,
+    ``\textit{BRIDGE: Proactive Human--AI Collaboration for Behavior-Change Design},''
+    manuscript under review for the \emph{ACM Conference on Human Factors in Computing Systems (CHI 2027)}.}
+\resumeItemListEnd
+
+
+\vspace{-5pt}
+\subsection*{Lightly Reviewed Papers (Workshops \& Posters)}
+\resumeItemListStart
+
+
+    \resumeItem{Sangwook Lee, \textbf{\underline{Adnan Abbas}}, Yan Chen, Sang Won Lee,
+    ``\href{https://arxiv.org/pdf/2502.15030}{\textit{CHOIR: Chat-based Helper for Organizational Intelligence Repository}},''
+    in \emph{ACM CHI 2025 Workshop on Tools for Thought}.}
+    \resumeItem{\textbf{\underline{Adnan Abbas}}, Sang Won Lee,
+    ``\href{https://arxiv.org/pdf/2406.07485}{\textit{PITCH: Productivity and Mental Well-being Coaching through Daily Conversational Interaction}},''
+    in \emph{ACM CHI 2024 Workshop on Designing AI for Well-being}, Honolulu, HI.}
+\resumeItemListEnd
+
+
+\section{Research Methods and Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{
+\item \textbf{Research Methods:} Mixed-methods design, field deployment, semi-structured interviews, storyboarding, thematic analysis, dialogue act coding, statistical modeling
+\item \textbf{Technical Skills:} Python, JavaScript (Node.js, React), C++, Java, SQL, HTML/CSS, Bash
+\item \textbf{Frameworks \& Tools:} OpenAI API, Flask, MongoDB, MERN stack, Slack Bolt, Docker, GitHub, Figma, Balsamiq, Nginx
+}
+\end{itemize}
+
+%for industry or AI tech savy
+
+% \section{Research Methods and Technical Skills}
+% \begin{itemize}[leftmargin=0.15in, label={}]
+% \small{
+% \item \textbf{Research Methods:} Mixed-methods study design, field deployment, user interviews, thematic coding, dialogue act analysis, statistical evaluation
+% \item \textbf{Programming:} Python, JavaScript (Node.js, React, React Native), C++, Java, SQL, Bash
+% \item \textbf{Tools \& Frameworks:} OpenAI API, Flask, MongoDB, MERN, Nginx, Docker, GitHub, Figma, Balsamiq
+% }
+% \end{itemize}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Graduate Research Assistant - Echolab}{Aug 2023 -- Present}
+  {Virginia Tech}{Blacksburg, VA, USA}
+  \resumeItemListStart
+
+\item{Conducted a systematic review of 100+ papers on human–AI interaction and behavioral science, identifying design gaps in conversational strategies and analytical gaps in understanding user engagement behaviors}
+% system/prototype design
+\item{Led the design, engineering, and field deployment of a Slack-based conversational agent that promoted variety of productivity interventions for knowledge worker's planning and self-reflection}
+% study design data collection
+\item{Designed and ran a two-week mixed-methods field study (N = 12), combining qualitative (semi-structured interviews, conversation-logs, daily surveys) and quantitative (Likert scale self-reports, dialogue acts) to evaluate engagement and productivity}
+% study design data evaluation
+\item{Collaborated with an interdisciplinary team to refine study design, conduct open/thematic coding, and perform quantitative analyses (Python/R), grounding findings in HAI interaction and personal productivity literature}
+\item{Published results into peer-reviewed top-tier conferences demonstrating ability to independently drive research from concept to publication}
+
+
+
+\resumeItemListEnd
+
+
+\resumeSubheading
+  {Educational Technology Engineer}{Jul 2022 -- Jul 2023}
+  {Educative, Inc.}{Lahore, Pakistan}
+  \resumeItemListStart
+    \resumeItem{Performed a literature review on spatial computing and VR teaching solutions; presented findings that informed leadership’s decision to expand into XR ed-tech }
+    \resumeItem{Led the development of flagship Web 3.0 and XR courses, \href{https://www.educative.io/courses/become-proficient-in-webxr-create-xr-experiences-using-a-frame}{\textcolor{myblue}{WebXR Experiences}} and \href{https://www.educative.io/courses/mastering-vr-development-with-unity-and-meta-quest-2}{\textcolor{myblue}{VR Development with Unity}}}
+    \resumeItem{Collaborated with PMs and developers to engineer a novel WebADB-based VR widget, enabling in-browser headset integration and reducing configuration overhead for learners}
+    \resumeItem{Conducted usability tests (N=20) uncovering pain points in navigation and learner comprehension}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Research Assistant}{Jul 2020 -- May 2022}
+  {Lahore University of Management Sciences}{Lahore, Pakistan}
+  \resumeItemListStart
+    \resumeItem{Designed and developed a novel system design for optimizing control plane operations in edge-based cellular networks}
+    \resumeItem{Developed a user state management algorithm leveraging geographically aware consistent hashing}
+    \resumeItem{Designed test cases and improved the performance of latency sensitive applications (AR/VR, self-driving cars) by 2.5x and 2.8x, under real-world cellular traffic}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+\section{Projects}
+    \resumeSubHeadingListStart
+     \resumeProjectHeading
+    {\textbf{Understanding Organizational Memory Practices} $|$
+        \emph{Interview Study, Design Feedback}} {July 2025}
+          \resumeItemListStart
+            \resumeItem{Conducted formative interviews (N=15) with faculty to understand organizational memory challenges \& practices}
+            \resumeItem{Synthesized findings into design goals (\href{https://www.youtube.com/watch?v=-up6h0xPR3E}{\textcolor{myblue}{\textit{Demo Video}}})}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\textbf{Encouraging Reflection in Journal Writing} $|$
+    \emph{Human-LLM Interaction, Prototype Development}} {May 2024}
+  \resumeItemListStart
+    \resumeItem{Designed and developed an LLM-based journaling prototype enabling users to set future questions and control topic focus through text interactions}
+    \resumeItem{Implemented guided prompts and evolving personalization features to support reflective writing (\href{https://www.youtube.com/watch?v=kqY8XgPmqR8}{\textcolor{myblue}{\textit{Demo Video}})}}
+  \resumeItemListEnd
+
+
+    \resumeProjectHeading
+          {\textbf{Short-form Content Addiction in Virtual Reality} $|$ \emph{Within-subject experiment, Quantitative Evaluation}}{Dec 2023}
+          \resumeItemListStart
+             \resumeItem{Conducted a within-subject user study (N=15) comparing short-form content use in VR vs. smartphones through the lens of flow theory, examining engagement, time distortion, and well-being}
+             \resumeItem{Analyzed quantitative findings and authored the report  \href{https://drive.google.com/file/d/1MsmJA_1XdB_El1zF_99CzDDUjK37riTp/view?usp=sharing}{\textit{\textcolor{myblue}{SFC Addiction in VR Through the Lens of Flow Theory}}}.}
+          \resumeItemListEnd
+
+
+
+    \resumeProjectHeading
+          {\textbf{SkillCoach: Connecting Learners and Tutors} $|$ \emph{Figma Prototyping, Mixed-Methods Evaluation}}{Oct 2022}
+          \resumeItemListStart
+            \resumeItem{Designed a peer-to-peer skill-sharing mobile platform connecting learners with tutors \href{https://medium.com/design-bootcamp/skillcoach-a-learning-marketplace-2cafdc40999a}{(\textcolor{myblue}{Case Study}}, \href{https://www.figma.com/proto/hiOVOmxLbs91jKx9NjBjKF/SkillCoach?node-id=0-1&t=jzBM8aOAjYK09zPM-1}{\textcolor{myblue}{Figma Prototype}})}
+            % \resumeItem{Conducted user research, prototyped interfaces, performed usability testing, and authored a }
+          \resumeItemListEnd
+
+
+
+
+
+
+
+
+
+\resumeSubHeadingListEnd
+
+\section{Teaching}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {\textbf{User Interface Software (CS 5774)}}{Fall 2026}
+  {\textit{Graduate Teaching Assistant, Virginia Tech}}{Blacksburg, VA}
+
+\resumeSubheading
+  {\textbf{Database Management Systems (CS 5614)}}
+  {Spring 2026}
+  {\textit{Graduate Teaching Assistant}}{Blacksburg, Virginia Tech}
+
+\resumeSubheading
+  {\textbf{Ethics \& Professionalism in Computer Science (CS 5024)}}{Summer 2025}
+  {\textit{Graduate Teaching Assistant}}{Blacksburg, Virginia Tech}
+
+\resumeSubheading
+  {\textbf{Introduction to GUI Programming / Graphics (CS 3744)}}{Spring 2025}
+  {\textit{Graduate Teaching Assistant}}{Blacksburg, Virginia Tech}
+
+\resumeSubheading
+  {\textbf{Software Design and Data Structures (CS 2114)}}{Fall 2023 -- Fall 2024}
+  {\textit{Graduate Teaching Assistant}}{Blacksburg, Virginia Tech}
+
+\resumeSubheading
+  {\textbf{Network-Centric Computing} (CS-382) }{Fall 2021}
+  {\textit{Undergraduate Teaching Assistant}}{Lahore, LUMS}
+
+\resumeSubHeadingListEnd
+
+
+
+
+
+
+\section{Mentorship}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {\textbf{Benjamin Wheatley}}{Jun 2025 -- Present}
+  {\textit{Undergraduate Research Assistant, Virginia Tech}}{}
+\resumeSubheading
+  {Arnav Jagtap}{Jan 2025 -- May 2025}
+  {\textit{Undergraduate Research Assistant, Virginia Tech}}{}
+
+\resumeSubheading
+  {\textbf{Amanjeet Sahagal}}{Jun 2025 -- Sep 2025}
+  {\textit{Undergraduate Research Assistant, Virginia Tech}}{}
+
+
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------INVOLVEMENT---------------
+
+
+\end{document}

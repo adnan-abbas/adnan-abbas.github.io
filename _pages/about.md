@@ -6,7 +6,7 @@ subtitle: HCI Researcher. <a href='https://echolab.cs.vt.edu/'>Echolab, CS@VT</a
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: |
     Email: <a href="mailto:adnana99@vt.edu">adnana99@vt.edu</a><br>
@@ -33,7 +33,7 @@ Achieving this alignment requires purposeful planning and self-reflection: as Wi
 In today's fast-paced and demanding work environments, cultivating such habits is more crucial than ever. 
 My research examines how technology can meaningfully support this process.
 
-I am a third-year PhD student in Computer Science at Virginia Tech, advised by [Dr. Sang Won Lee](https://echolab.cs.vt.edu/sangwonlee/).
+I am a fourth-year PhD student in Computer Science at Virginia Tech, advised by [Dr. Sang Won Lee](https://echolab.cs.vt.edu/sangwonlee/).
 Within Human–Computer Interaction, I explore how technology can support self-reflection, self-regulation, and productivity. 
 In particular, **I study conversational interaction as a medium for reflection**: talking through our plans can help us externalize intentions, evaluate progress, and bring new ideas - yet sustaining these practices over time is challenging. This raises key research questions: 
 - How can we design conversational agents that sustain engagement over time? 
@@ -47,7 +47,7 @@ Before starting graduate school, I worked as an Educational Technology Engineer,
 
 
 <!-- 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.png` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
