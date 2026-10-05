@@ -1430,11 +1430,12 @@ figure.cover {
 
   .affiliation-logo {
     display: inline-block;
-    height: 1.25em;
-    width: auto;
+    height: 1em;
+    width: 1em;
+    object-fit: contain;
     margin-right: 0.25em;
-    padding: 1px;
-    vertical-align: -0.2em;
+    padding: 0;
+    vertical-align: -0.125em;
     background: #fff;
     border-radius: 2px;
   }
