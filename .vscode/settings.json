@@ -1,4 +1,5 @@
 {
+  "editor.inlineSuggest.enabled": false,
   "latex-workshop.latex.autoBuild.run": "onSave",
   "latex-workshop.latex.outDir": "%DIR%/../assets/pdf",
   "latex-workshop.latex.recipe.default": "first",
@@ -12,13 +13,7 @@
     {
       "name": "tectonic",
       "command": "/opt/homebrew/bin/tectonic",
-      "args": [
-        "--synctex",
-        "--keep-logs",
-        "--outdir",
-        "%OUTDIR%",
-        "%DOC%"
-      ],
+      "args": ["--synctex", "--keep-logs", "--outdir", "%OUTDIR%", "%DOC_EXT%"],
       "env": {}
     }
   ],

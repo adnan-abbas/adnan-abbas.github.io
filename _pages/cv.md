@@ -1,11 +1,12 @@
 ---
 layout: cv
+cv_format: yaml
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
 cv_pdf: Adnan_Abbas_CV.pdf # you can also use external links here
-description: 
+description:
 toc:
   sidebar: left
 ---

@@ -1423,3 +1423,19 @@ figure.cover {
     color: #23212d !important;
   }
 }
+// Compact official organization icons beside affiliation names in prose.
+.affiliation-link {
+  display: inline-block;
+  white-space: nowrap;
+
+  .affiliation-logo {
+    display: inline-block;
+    height: 1.25em;
+    width: auto;
+    margin-right: 0.25em;
+    padding: 1px;
+    vertical-align: -0.2em;
+    background: #fff;
+    border-radius: 2px;
+  }
+}

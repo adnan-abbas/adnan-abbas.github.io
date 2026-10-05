@@ -1,97 +1,223 @@
+# Website CV content synchronized from cv/Adnan_Abbas_CV.tex.
+---
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
+    - name: Name
+      value: Adnan Abbas
+    - name: Website
+      value: <a href="https://adnan-abbas.github.io">adnan-abbas.github.io</a>
+    - name: Phone
+      value: 540-558-5330
+    - name: Email
+      value: <a href="mailto:adnana99@vt.edu">adnana99@vt.edu</a>
+    - name: LinkedIn
+      value: <a href="https://linkedin.com/in/adnan--abbas/">linkedin.com/in/adnan--abbas</a>
+    - name: GitHub
+      value: <a href="https://github.com/adnan-abbas">github.com/adnan-abbas</a>
+- title: Research Interests
+  type: list
+  contents:
+    - Designing agentic systems that act on external environments and maintain context
+      across multi-turn conversations.
+    - Understanding how people negotiate and calibrate the autonomy of goal-driven agents
+      for behavior change.
+    - Studying long-term human–AI adaptation and its implications for collaboration,
+      trust, and knowledge work practices.
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+    - title: Virginia Tech
+      year: Aug 2023 – Present
+      institution: Ph.D. in Computer Science (HCI) – Advised by <a href="https://echolab.cs.vt.edu/sangwonlee/">Dr.
+        Sang Won Lee</a>
+      location: Blacksburg, VA, USA
+    - title: Lahore University of Management Sciences (LUMS)
+      year: Aug 2018 – May 2022
+      institution: Bachelor of Science in Computer Science
+      location: Lahore, Pakistan
+- title: Publications
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Journal &amp; Conference Proceedings
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - 'Sangwook Lee, <strong><u>Adnan Abbas</u></strong>, Sang Won Lee, Young-Ho Kim,
+          Yan Chen, “<a href="https://arxiv.org/pdf/2604.06134"><em>MAESTRO: Adapting
+          GUIs and Guiding Navigation with User Preferences in Conversational Agents with
+          GUIs</em></a>,” in <em>Proceedings of the 39th Annual ACM Symposium on User
+          Interface Software and Technology (UIST 2026)</em>.'
+        - '<strong><u>Adnan Abbas</u></strong>, Caleb Wohn, Arnav Jagtap, Eugenia H. Rho,
+          Young-ho Kim, Sang Won Lee, “<a href="https://doi.org/10.1145/3772318.3790957"><em>‘Having
+          Lunch Now’: Understanding How Users Engage with a Proactive Agent for Daily
+          Planning and Self-Reflection</em></a>,” in <em>Proceedings of the ACM Conference
+          on Human Factors in Computing Systems (CHI 2026)</em>.'
+        - 'Sangwook Lee, <strong><u>Adnan Abbas</u></strong>, Yan Chen, Young-ho Kim,
+          Sang Won Lee, “<a href="https://doi.org/10.1145/3772318.3791314"><em>CHOIR: A Chatbot-mediated
+          Organizational Memory Leveraging Communication in University Research Labs</em></a>,”
+          <em>in Proceedings of the ACM Conference on Human Factors in Computing Systems
+          (CHI 2026)</em> <strong>Honorable Mention Award (Top 5% of submissions)</strong>.'
+        - '<strong><u>Adnan Abbas</u></strong>, Caleb Wohn, Donghan Hu, Eugenia H. Rho,
+          Sang Won Lee, “<a href="https://dl.acm.org/doi/10.1145/3719160.3736634"><em>PITCH:
+          Designing Agentic Conversational Support for Planning and Self-reflection</em></a>,”
+          in <em>Proceedings of the ACM Conference on Conversational User Interfaces (CUI
+          2025)</em>.'
+        - 'Mukhtiar Ahmad, Syed Muhammad Nawazish Ali, Muhammad Taimoor Tariq, Syed Usman
+          Jafri, <strong><u>Adnan Abbas</u></strong>, et al., “<a href="https://ieeexplore.ieee.org/document/9885031"><em>Neutrino:
+          A Fast and Consistent Edge-based Cellular Control Plane</em></a>,” <em>in IEEE/ACM
+          Transactions on Networking</em>, 2023.'
+    - title: Papers Under Review
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
+        - "<strong><u>Adnan Abbas</u></strong>, Linda W. Chang, Lu Sun, Laura A. Libby,
+          “<em>BRIDGE: Proactive Human–AI Collaboration for Behavior-Change Design</em>,”
+          manuscript under review for the <em>ACM Conference on Human Factors in Computing
+          Systems (CHI 2027)</em>."
+    - title: Lightly Reviewed Papers (Workshops &amp; Posters)
+      items:
+        - 'Sangwook Lee, <strong><u>Adnan Abbas</u></strong>, Yan Chen, Sang Won Lee,
+          “<a href="https://arxiv.org/pdf/2502.15030"><em>CHOIR: Chat-based Helper for
+          Organizational Intelligence Repository</em></a>,” in <em>ACM CHI 2025 Workshop
+          on Tools for Thought</em>.'
+        - '<strong><u>Adnan Abbas</u></strong>, Sang Won Lee, “<a href="https://arxiv.org/pdf/2406.07485"><em>PITCH:
+          Productivity and Mental Well-being Coaching through Daily Conversational Interaction</em></a>,”
+          in <em>ACM CHI 2024 Workshop on Designing AI for Well-being</em>, Honolulu,
+          HI.'
+- title: Research Methods and Skills
+  type: map
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: Research Methods
+      value: Mixed-methods design, field deployment, semi-structured interviews, storyboarding,
+        thematic analysis, dialogue act coding, statistical modeling
+    - name: Technical Skills
+      value: Python, JavaScript (Node.js, React), C++, Java, SQL, HTML/CSS, Bash
+    - name: Frameworks &amp; Tools
+      value: OpenAI API, Flask, MongoDB, MERN stack, Slack Bolt, Docker, GitHub, Figma,
+        Balsamiq, Nginx
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Graduate Research Assistant - Echolab
+      year: Aug 2023 – Present
+      institution: Virginia Tech
+      location: Blacksburg, VA, USA
+      description:
+        - Independently drive research from concept to publication, drawing on human–AI
+          interaction, behavioral science, and NLP literature to develop human-in-the-loop
+          agentic systems.
+        - Collaborate with psychology and social science researchers to design AI agents
+          that support executive functioning, planning, and self-reflection.
+        - Design and conduct mixed-methods field studies that combine qualitative interviews
+          with quantitative measures of user behavior and self-reported outcomes to evaluate
+          systems and inform iterative design.
+        - Analyze interviews and interaction data using thematic analysis and statistical
+          methods in R, including regression, generalized linear mixed models (GLMMs)
+          to translate findings into actionable design recommendations.
+        - Present research findings to interdisciplinary audiences and write and prepare
+          manuscripts for peer-reviewed publication.
+    - title: Research Intern
+      year: May 2026 – Sep 2026
+      institution: Toyota Research Institute
+      description:
+        - Created an AI tool for behavioral scientists to accelerate the process of diagnosing
+          behavior problems and designing behavior change interventions
+        - Designed and implemented a proactive conversational AI prototype combining agent
+          orchestration and tool calling.
+        - Coordinated IRB approval and designed and conducted a counterbalanced within-subjects
+          experiment (N = 16).
+        - Combined thematic analysis with mixed-effects modeling in R to examine quantitative
+          metrics, identifying design tradeoffs between proactive guidance and user agency.
+        - Presented research progress and findings to stakeholders and prepared a full-paper
+          submission to CHI 2027.
+    - title: Educational Technology Engineer
+      year: Jul 2022 – Jul 2023
+      institution: Educative, Inc.
+      location: Lahore, Pakistan
+      description:
+        - Performed a literature review on spatial computing and VR teaching solutions;
+          presented findings that informed leadership’s decision to expand into XR ed-tech
+        - Led the development of flagship Web 3.0 and XR courses, <a href="https://www.educative.io/courses/become-proficient-in-webxr-create-xr-experiences-using-a-frame">WebXR
+          Experiences</a> and <a href="https://www.educative.io/courses/mastering-vr-development-with-unity-and-meta-quest-2">VR
+          Development with Unity</a>
+        - Collaborated with PMs and developers to engineer a novel WebADB-based VR widget,
+          enabling in-browser headset integration and reducing configuration overhead
+          for learners
+        - Conducted usability tests (N=20) uncovering pain points in navigation and learner
+          comprehension
+    - title: Research Assistant
+      year: Jul 2020 – May 2022
+      institution: Lahore University of Management Sciences
+      location: Lahore, Pakistan
+      description:
+        - Designed and developed a novel system design for optimizing control plane operations
+          in edge-based cellular networks
+        - Developed a user state management algorithm leveraging geographically aware
+          consistent hashing
+        - Designed test cases and improved the performance of latency sensitive applications
+          (AR/VR, self-driving cars) by 2.5x and 2.8x, under real-world cellular traffic
+- title: Projects
+  type: time_table
+  contents:
+    - title: "<strong>Understanding Organizational Memory Practices</strong>"
+      year: July 2025
+      maindescription: "<em>Interview Study, Design Feedback</em>"
+      description:
+        - Conducted formative interviews (N=15) with faculty to understand organizational
+          memory challenges &amp; practices
+        - Synthesized findings into design goals (<a href="https://www.youtube.com/watch?v=-up6h0xPR3E"><em>Demo
+          Video</em></a>)
+    - title: "<strong>Encouraging Reflection in Journal Writing</strong>"
+      year: May 2024
+      maindescription: "<em>Human-LLM Interaction, Prototype Development</em>"
+      description:
+        - Designed and developed an LLM-based journaling prototype enabling users to set
+          future questions and control topic focus through text interactions
+        - Implemented guided prompts and evolving personalization features to support
+          reflective writing (<a href="https://www.youtube.com/watch?v=kqY8XgPmqR8"><em>Demo
+          Video</em>)</a>
+    - title: "<strong>Short-form Content Addiction in Virtual Reality</strong>"
+      year: Dec 2023
+      maindescription: "<em>Within-subject experiment, Quantitative Evaluation</em>"
+      description:
+        - Conducted a within-subject user study (N=15) comparing short-form content use
+          in VR vs. smartphones through the lens of flow theory, examining engagement,
+          time distortion, and well-being
+        - Analyzed quantitative findings and authored the report <a href="https://drive.google.com/file/d/1MsmJA_1XdB_El1zF_99CzDDUjK37riTp/view?usp=sharing"><em>SFC
+          Addiction in VR Through the Lens of Flow Theory</em></a>.
+    - title: "<strong>SkillCoach: Connecting Learners and Tutors</strong>"
+      year: Oct 2022
+      maindescription: "<em>Figma Prototyping, Mixed-Methods Evaluation</em>"
+      description:
+        - Designed a peer-to-peer skill-sharing mobile platform connecting learners with
+          tutors <a href="https://medium.com/design-bootcamp/skillcoach-a-learning-marketplace-2cafdc40999a">(Case
+          Study</a>, <a href="https://www.figma.com/proto/hiOVOmxLbs91jKx9NjBjKF/SkillCoach?node-id=0-1&amp;t=jzBM8aOAjYK09zPM-1">Figma
+          Prototype</a>)
+- title: Academic Involvement
+  type: nested_list
+  contents:
+    - title: Teaching
+      items:
+        - User Interface Software (CS 5774) — Fall 2026<br><em>Graduate Teaching Assistant,
+          Virginia Tech · Blacksburg, VA</em>
+        - Database Management Systems (CS 5614) — Spring 2026<br><em>Graduate Teaching
+          Assistant, Virginia Tech · Blacksburg, VA</em>
+        - Ethics &amp; Professionalism in Computer Science (CS 5024) — Summer 2025<br><em>Graduate
+          Teaching Assistant, Virginia Tech · Blacksburg, VA</em>
+        - Introduction to GUI Programming / Graphics (CS 3744) — Spring 2025<br><em>Graduate
+          Teaching Assistant, Virginia Tech · Blacksburg, VA</em>
+        - Software Design and Data Structures (CS 2114) — Fall 2023 – Fall 2024<br><em>Graduate
+          Teaching Assistant, Virginia Tech · Blacksburg, VA</em>
+        - Network-Centric Computing (CS 382) — Fall 2021<br><em>Undergraduate Teaching
+          Assistant, LUMS · Lahore, Pakistan</em>
+    - title: Reviewer
+      items:
+        - CHI 2026 — Oct 2025<br><em>Recognized for outstanding review</em>
+    - title: Student Volunteer
+      items:
+        - CHI 2026 — May 2026
+    - title: Mentorship
+      items:
+        - Benjamin Wheatley — Jun 2025 – Present<br><em>Undergraduate Research Assistant,
+          Virginia Tech · Blacksburg, VA</em>
+        - Arnav Jagtap — Jan 2025 – May 2025<br><em>Undergraduate Research Assistant,
+          Virginia Tech · Blacksburg, VA</em>
+        - Amanjeet Sahagal — Jun 2025 – Sep 2025<br><em>Undergraduate Research Assistant,
+          Virginia Tech · Blacksburg, VA</em>

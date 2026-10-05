@@ -27,28 +27,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-We spend [about one-third of our lives](https://www.gettysburg.edu/news/stories?id=79db7b34-630c-4f49-ad32-4ab9ea48e72b&pageTitle=1%2F3+of+your+life+is+spent+at+work) at work. 
-Given its central role in our everyday lives, it is important that our work aligns with our values and long-term goals.
-Achieving this alignment requires purposeful planning and self-reflection: as Will Durant once wrote,  _“We are what we repeatedly do. Excellence, then, is not an act, but a habit”_.
-In today's fast-paced and demanding work environments, cultivating such habits is more crucial than ever. 
-My research examines how technology can meaningfully support this process.
+I am a human–computer interaction (HCI) researcher and fourth-year PhD student in Computer Science at <a class="affiliation-link" href="https://www.vt.edu/"><img class="affiliation-logo" src="{{ '/assets/img/affiliations/virginia-tech.png' | relative_url }}" alt="" width="48" height="48">Virginia Tech</a>, where I am advised by [Dr. Sang Won Lee](https://echolab.cs.vt.edu/sangwonlee/) in [Echolab](https://echolab.cs.vt.edu/).
 
-I am a fourth-year PhD student in Computer Science at Virginia Tech, advised by [Dr. Sang Won Lee](https://echolab.cs.vt.edu/sangwonlee/).
-Within Human–Computer Interaction, I explore how technology can support self-reflection, self-regulation, and productivity. 
-In particular, **I study conversational interaction as a medium for reflection**: talking through our plans can help us externalize intentions, evaluate progress, and bring new ideas - yet sustaining these practices over time is challenging. This raises key research questions: 
-- How can we design conversational agents that sustain engagement over time? 
-- In what ways can such systems foster positive behavior change? 
-- And, as large language models (LLMs) increasingly take proactive, agentic roles, how do people engage with these agents in personal productivity contexts? 
+I design and study proactive, agentic AI systems that support planning, self-reflection, and behavior change. I am particularly interested in conversation as a medium for reflection and in how our interactions with intelligent systems can shape our behavior and everyday practices.
 
-To answer these questions, **I design and build interactive human–AI systems**, combining mixed-methods approaches with field studies to examine their impact in real-world settings.
+My research focuses on:
 
+- Designing agentic systems that act on external environments, maintain context across multi-turn conversations, and adapt to user preferences.
+- Understanding how people negotiate and calibrate the autonomy and initiative of goal-driven agents for behavior change.
+- Studying long-term human–AI adaptation and its implications for collaboration, trust, and knowledge work practices.
 
-Before starting graduate school, I worked as an Educational Technology Engineer, where I developed interactive courses to teach XR development, including [WebXR, A-Frame](https://www.educative.io/courses/become-proficient-in-webxr-create-xr-experiences-using-a-frame) and [VR Applications with Unity](https://www.educative.io/courses/mastering-vr-development-with-unity-and-meta-quest-2). During my undergraduate studies at [LUMS](https://lums.edu.pk/), I conducted research under the supervision of [Dr. Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/) on optimizing the design of control planes in cellular networks.
+I use human-centered methods to design, build, and evaluate interactive AI systems. I conduct user studies through controlled experiments and field deployments, using qualitative and quantitative analysis to understand behavioral outcomes and perceived value, then use these findings to refine system design.
 
+During my research internship at <a class="affiliation-link" href="https://www.tri.global/"><img class="affiliation-logo" src="{{ '/assets/img/affiliations/tri.png' | relative_url }}" alt="" width="32" height="32">Toyota Research Institute</a>, I worked with behavioral scientists to develop and evaluate an AI tool for diagnosing behavioral barriers and designing interventions at scale.
 
-<!-- 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. Add your profile image to the `assets/img/` folder and reference its filename above.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+Before my PhD, I worked as an Educational Technology Engineer at Educative, developing interactive courses on <a class="affiliation-link" href="https://www.educative.io/courses/become-proficient-in-webxr-create-xr-experiences-using-a-frame"><img class="affiliation-logo" src="{{ '/assets/img/affiliations/educative.png' | relative_url }}" alt="" width="96" height="96">WebXR and A-Frame</a> and [VR development with Unity](https://www.educative.io/courses/mastering-vr-development-with-unity-and-meta-quest-2). As an undergraduate at <a class="affiliation-link" href="https://lums.edu.pk/"><img class="affiliation-logo" src="{{ '/assets/img/affiliations/lums.ico' | relative_url }}" alt="" width="76" height="65">LUMS</a>, I worked with [Dr. Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/) on optimizing the design of control planes in cellular networks.
